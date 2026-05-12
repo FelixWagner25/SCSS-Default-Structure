@@ -1,0 +1,3 @@
+tsc scripname.ts --target ESNext --module commonjs
+
+npx sass scss/main.scss css/main.css

@@ -1,0 +1,7 @@
+@use "./constants" as const;
+
+@mixin respond($min-size: zero, $max-size) {
+  @media screen and (min-width: map-get(const.$breakpoints, $min-size)) and (max-width: map-get(const.$breakpoints, $max-size)) {
+    @content;
+  }
+}

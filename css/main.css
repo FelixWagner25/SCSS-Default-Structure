@@ -1,0 +1,57 @@
+.card {
+  background-color: skyblue;
+}
+.card__title {
+  color: red;
+}
+.card__text {
+  color: whitesmoke;
+}
+.card__text--highlight {
+  color: purple;
+}
+.card__btn {
+  font-size: 24px;
+  color: whitesmoke;
+}
+.card__btn--primary {
+  background-color: seagreen;
+}
+.card__btn--secondary {
+  background-color: lightcoral;
+}
+@media screen and (min-width: 0px) and (max-width: 640px) {
+  .card {
+    font-size: 10px;
+  }
+}
+
+.text-xxs {
+  font-size: 8px;
+}
+
+.text-xs {
+  font-size: 12px;
+}
+
+.text-s {
+  font-size: 16px;
+}
+
+.text-m {
+  font-size: 22px;
+}
+
+.text-l {
+  font-size: 24px;
+}
+
+.text-xl {
+  font-size: 32px;
+}
+
+h1 {
+  color: green;
+}
+
+/*# sourceMappingURL=main.css.map */
